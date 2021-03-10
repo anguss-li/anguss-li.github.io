@@ -1,67 +1,100 @@
 <!DOCTYPE html>
 
 <html class="h-100" lang="en">
-<head>
-  <meta charset="utf-8" />
+  <head>
+    <meta charset="utf-8" />
+    <title>Angus Li</title>
+    <meta name="description" content="My portfolio and blogpost dump :)" />
+    <meta name="author" content="Angus Li" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-  <title>Angus Li</title>
-  <meta name="description" content="My portfolio and blogpost dump :)" />
-  <meta name="author" content="Angus Li" />
+  <body class="d-flex flex-column h-100">
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-
-  <link href="styles.css" rel="stylesheet" />
-</head>
-
-<body class="d-flex flex-column h-100">
-  <header>
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+    <!-- Begin page content -->
+    <main class="flex-shrink-0">
+      <div class="container">
+        <h1 class="mt-5">Hey, I'm Angus!</h1>
+        <p class="lead">
+          I'm a Hongkonger, and a recent high-school graduate figuring life out
+          in the time of COVID 😃
+        </p>
+        <div class="row align-items-center">
+          <div class="col-md-auto">
+            <img
+              src="Images/rsz_1dsc_0036-01~2.jpg"
+              alt="A portrait of me."
+              class="pull-left mr-2"
+            />
+          </div>
+          <div class="col-md-auto">
+            <li>
+              <strong>2021: </strong>Will matriculate at Williams College in
+              Massachusetts.
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+            <li>
+              <strong>2020: </strong>Graduated from Sha Tin College after
+              completing the International Baccalaureate.
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-          </ul>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
+    </main>
 
-  <!-- Begin page content -->
-  <main class="flex-shrink-0">
-    <div class="container">
-      <h1 class="mt-5">Hey, I'm Angus!</h1>
-      <p class="lead">I'm a Hongkonger, and a recent high-school graduate figuring life out in the time of COVID 😃</p>
-      <div class="row align-items-start">
-        <div class="col">
-          <img class="img-thumbnail" src="Images/DSC_0036-01~2.jpeg" width="400">
-        </div>
-        <div class="col">
-          <strong>2020</strong>
-          <li>Graduated from Sha Tin College after completing the International Baccalaureate.</li>
-        </div>
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <span class="text-muted">
+          Find me on:
+          <a href="https://www.linkedin.com/in/angusrli02" target="_blank">
+            <i class="bi bi-linkedin text-black-50"></i>
+          </a>
+          &nbsp;
+          <a href="https://github.com/anguss-li" target="_blank">
+            <i class="bi bi-github text-black-50"></i>
+          </a>
+          &nbsp;
+          <a href="https://www.facebook.com/angusrli/" target="_blank">
+            <i class="bi bi-facebook text-black-50"></i>
+          </a>
+        </span>
       </div>
-    </div>
-  </main>
+    </footer>
 
-  <footer class="footer mt-auto py-3 bg-light">
-    <div class="container">
-      <span class="text-muted">Place sticky footer content here.</span>
-    </div>
-  </footer>
-
-  <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-    crossorigin="anonymous"></script>
-
-</body>
+    <script
+      src="/docs/5.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
